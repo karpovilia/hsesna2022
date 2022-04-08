@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - main 
+      - ci_test 
 jobs:
   deploy:
     runs-on: ubuntu-latest
