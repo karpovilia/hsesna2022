@@ -113,8 +113,8 @@ Basic knowledge of **python** programming language and statistics are required f
     * Dive into GAT
 
 ## Grades
-Course grade will be completed as follows: $$Final mark] = 0.4 * round([cumulative mark for the work during the modules]) + 0.6 * round( [mark for the final project])$$
-
+Course grade will be completed as follows: $$[Final mark] = 0.4 * round([cumulative mark for the work during the modules]) + 0.6 * round( [mark for the final project])$$
+$$
 ### Evaluation of the work during the modules
 The cumulative mark for the work during the modulus is based on the tests $$[cumulative mark for the work during the modules] = (test1 + test2 + test3 + test4 + test5 + test6)/6$$ . If the student missed 5 classes or more, the final mark can be reduced by 25 %.
 
@@ -124,14 +124,14 @@ The cumulative mark for the work during the modulus is based on the tests $$[cum
 
 | Title                                   | Description                                                                                                               | Maximum score | CP  | Deadline   |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------|-----|------------|
-| Research Proposal                       | Substantiation of the relevance of the chosen task and a brief literature review on the topic                             | 1             | CP1 | 22.04.2022 |
-| Preprocessing and Data Loading          | Collection and preparation of data for analysis                                                                           | 2             | CP2 | 27.05.2022 |
-| Descriptive statistics and centralities | Description of the received data, distribution of the target variable                                                     | 2             | CP2 | 27.05.2022 |
-| Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | 3             | CP3 | 20.06.2022 |
-| Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | 1             | CP3 | 20.06.2022 |
-| Course Project presentation             | Speech & presentation at the final seminar                                                                                | 1             | CP3 | 20.06.2022 |
-
-For the final project, students need to collect data and suggest a way to predict and/or model based on real network data. The assessment for the final project is set on a 10-point scale. Criteria for evaluating the final project.
+| Research Proposal                       | Substantiation of the relevance of the chosen task and a brief literature review on the topic                             | 1             | CP1 | 21.04.2022 |
+| Preprocessing and Data Loading          | Collection and preparation of data for analysis                                                                           | 2             | CP2 | 26.05.2022 |
+| Descriptive statistics and centralities | Description of the received data, distribution of the target variable                                                     | 2             | CP2 | 26.05.2022 |
+| Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | 3             | CP3 | 19.06.2022 |
+| Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | 1             | CP3 | 19.06.2022 |
+| Course Project presentation             | Speech & presentation at the final seminar                                                                                | 1             | CP3 | 19.06.2022 |
+* Sumbission date and time is taken from the date of delivery of the mail message to the professor's @hse.ru address (can be found at the [official page](https://www.hse.ru/en/staff/iakarpov)). Late submission policy: -5% score per day. All submission deadlines are 23:59 GMT+3.
+* For the final project, students need to collect data and suggest a way to predict and/or model based on real network data. The assessment for the final project is set on a 10-point scale. Criteria for evaluating the final project.
 
 | Main results of the project                                                                                                                                                                                                                                                                                                                                                                                             | Rating               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
