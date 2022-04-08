@@ -11,8 +11,6 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pwd
-      # - run: pip install mkdocs-material 
-      # - run: pip install mkdocs-material 
-      # - run: mv "DSBA NLP 2022" docs
-      # - run: mkdocs gh-deploy --force
+      - run: mv -v ~/work/hsesna2022/hsesna2022/* ~/work/hsesna2022/hsesna2022/docs/
+      - run: git clone git@github.com:karpovilia/mkdocs_template.git .
+      - run: mkdocs gh-deploy --force
