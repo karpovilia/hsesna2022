@@ -15,7 +15,7 @@ jobs:
       - run: pwd
       - run: items=(*)
       - run: mkdir docs
-      - run: mv ${items[*]} docs
+      - run: mv ${items[*]} docs/
       - run: mv docs/.git .
       - run: git clone https://github.com/karpovilia/mkdocs_template.git
       - run: rm -rf mkdocs_template/.git/
