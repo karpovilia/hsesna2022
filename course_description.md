@@ -81,9 +81,9 @@ The cumulative mark for the work during the modulus is based on the tests [cumul
 | Research Proposal                       | Substantiation of the relevance of the chosen task and a brief literature review on the topic                             | 1             | CP1 | 22.04.2022 |
 | Preprocessing and Data Loading          | Collection and preparation of data for analysis                                                                           | 2             | CP2 | 27.05.2022 |
 | Descriptive statistics and centralities | Description of the received data, distribution of the target variable                                                     | 2             | CP2 | 27.05.2022 |
-| Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | 3             |     |            |
-| Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | 1             |     |            |
-| Course Project presentation             | Speech & presentation at the final seminar                                                                                | 1             |     |            |
+| Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | 3             | CP3 | 20.06.2022 |
+| Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | 1             | CP3 | 20.06.2022 |
+| Course Project presentation             | Speech & presentation at the final seminar                                                                                | 1             | CP3 | 20.06.2022 |
 
 For the final project, students need to collect data and suggest a way to predict and/or model based on real network data. The assessment for the final project is set on a 10-point scale. Criteria for evaluating the final project.
 
