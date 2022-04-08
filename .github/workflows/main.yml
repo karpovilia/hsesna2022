@@ -16,8 +16,9 @@ jobs:
       - run: mkdir docs
       - run: mv ~/docs ./docs
       - run: ls -la
+      - run: ls -la docs
       - run: pwd
-      - run: mv docs/.git .
+      #- run: mv docs/.git .
       - run: git clone https://github.com/karpovilia/mkdocs_template.git
       - run: rm -rf mkdocs_template/.git/
       - run: rm -rf mkdocs_template/docs/
