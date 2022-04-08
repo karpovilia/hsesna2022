@@ -20,7 +20,6 @@ jobs:
       - run: mv mkdocs_template/* .
       - run: rm -rf mkdocs_template/
       - run: ls -la
-      - run: cd docs
-      - run: ls -la
+      - run: ls -la docs
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
