@@ -1,7 +1,7 @@
 # SNA Literature
 ## Books
-* ”Networks, Crowds, and Markets: Reasoning About a Highly  Connected World”. David Easley and John Kleinberg, Cambridge  University Press 2010.
-* ”Social Network Analysis. Methods and Applications”. Stanley  Wasserman and Katherine Faust, Cambridge University Press, 1994
+* ”Networks, Crowds, and Markets: Reasoning About a Highly Connected World”. David Easley and John Kleinberg, Cambridge  University Press 2010.
+* ”Social Network Analysis. Methods and Applications”. Stanley Wasserman and Katherine Faust, Cambridge University Press, 1994
 * ”Networks: An Introduction”. Mark Newman. Oxford University  Press, 2010.
 * Graph Embeddings for Social Network Analysis: State of the Art. Paul Compagnon, Kilian Ollivier, 2019
 * Advances in Network Clustering and Blockmodeling. Patrick Doreian, Vladimir Batagelj, Anǔska Ferligoj, 2020
@@ -12,6 +12,7 @@
 
 ## Conferences (computer science)
 NB! [Graph-based Deep Learning Literature Reports](https://github.com/naganandy/graph-based-deep-learning-literature)
+Recent [CS conference publications](https://github.com/karpovilia/Research/blob/main/Research/Relevant%20Articles.md)
 
 * Association for the Advancement of Artificial Intelligence ([AAAI](https://aaai.org/Conferences/AAAI-21/))
 * Conference on Neural Information Processing Systems ([NeurIPS](https://nips.cc/))
@@ -28,7 +29,6 @@ NB! [Graph-based Deep Learning Literature Reports](https://github.com/naganandy/
 ## Journals
 * [Social Networks](https://www.journals.elsevier.com/social-networks), [sjr](https://www.scimagojr.com/journalsearch.php?q=25987&tip=sid&clean=0)
 * [PeerJ Computer Science](https://peerj.com/computer-science/), [sjr](https://www.scimagojr.com/journalsearch.php?q=21100830173&tip=sid&clean=0)
-
 
 ## Russian conferences
 * International Conference on Analysis of Images, Social Networks and Texts ([AIST](https://aistconf.org/))
