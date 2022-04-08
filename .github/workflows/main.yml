@@ -13,4 +13,5 @@ jobs:
           python-version: 3.x
       - run: mv -v ~/work/hsesna2022/hsesna2022/* ~/work/hsesna2022/hsesna2022/docs/
       - run: git clone git@github.com:karpovilia/mkdocs_template.git .
+      - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
