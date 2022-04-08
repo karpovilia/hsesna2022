@@ -14,6 +14,6 @@ jobs:
       - run: find . ! -name . -prune ! -name docs -exec mv {} docs/ \;
       - run: git clone https://github.com/karpovilia/mkdocs_template.git
       - run: mv mkdocs_template/* .
-      - run: rm mkdocs_template/
+      - run: rm -rf mkdocs_template/
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
