@@ -130,6 +130,7 @@ The cumulative mark for the work during the modulus is based on the tests $$[cum
 | Research hypothises validation          | Exploratory analysis and obtaining the structural features of the original array, classifier training, etc...             | 3             | CP3 | 19.06.2022 |
 | Interpretation of results               | Registration of the main results of the project as text of the CP paper and git repo. Explanation of the obtained results | 1             | CP3 | 19.06.2022 |
 | Course Project presentation             | Speech & presentation at the final seminar                                                                                | 1             | CP3 | 19.06.2022 |
+
 * Sumbission date and time is taken from the date of delivery of the mail message to the professor's @hse.ru address (can be found at the [official page](https://www.hse.ru/en/staff/iakarpov)). Late submission policy: -5% score per day. All submission deadlines are 23:59 GMT+3.
 * For the final project, students need to collect data and suggest a way to predict and/or model based on real network data. The assessment for the final project is set on a 10-point scale. Criteria for evaluating the final project.
 
