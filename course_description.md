@@ -7,6 +7,7 @@
 | Self-study hours   | 82                           |
 | Course             | 1,2                          |
 | Educational format | Without use of online course |
+
 The course introduces students to the rapidly developing interdisciplinary field of study of structural data and patterns in them. As part of the course, we will consider methods for statistical and structural analysis of networks, models for the formation and evolution of networks and processes, machine learning on graphs. Particular attention will be paid to practical analysis and visualization of real networks using available software tools, modern programming languages and libraries.
 
 As a result, students should:
