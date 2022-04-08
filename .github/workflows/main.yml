@@ -11,12 +11,12 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: ls -la
-      - run: pwd
       - run: mkdir ~/docs
       - run: mv * ~/docs
       - run: mkdir docs
       - run: mv ~/docs ./docs
+      - run: ls -la
+      - run: pwd
       - run: mv docs/.git .
       - run: git clone https://github.com/karpovilia/mkdocs_template.git
       - run: rm -rf mkdocs_template/.git/
