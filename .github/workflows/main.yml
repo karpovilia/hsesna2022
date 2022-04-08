@@ -13,8 +13,7 @@ jobs:
           python-version: 3.x
       - run: mkdir ~/docs
       - run: mv * ~/docs
-      - run: mkdir docs
-      - run: mv ~/docs ./docs
+      - run: mv ~/docs .
       - run: ls -la
       - run: ls -la docs
       - run: pwd
