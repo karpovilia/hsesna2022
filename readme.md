@@ -1,7 +1,7 @@
 # Social Network Analysis Magolego 2022
 
 * [Course Description](course_description.md)
-* 
+* [Course Prerequisites](week_00/lecture_00_prerequisites.md)
 
 ## Classes Schedule
 | Date       | Time  |       | Topic                                                                                                                           | Activity   | Group |
