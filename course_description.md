@@ -32,40 +32,40 @@ Basic knowledge of **python** programming language and statistics are required f
 ## Course Schedule
 
 ### week 01  
-* `lecture` Course Intro and Key Ideas of Network Science
+* `lecture` "Course Intro and Key Ideas of Network Science"
     Discussion of the course program, grading strategies. Power law distribution, Small World Models
-* `lecture` Network Properties
+* `lecture` "Network Properties"
     Key defenitions: Node, Edge, Network, Degree, Degree Distribution, Bipartite Graph
 
 ### week 02
-* `lecture` Network Centralities
-    Degree, Betweeness, PageRank, Cores, Motifs, Island Approach
-* `lecture` Network Models
-    Barbashi, Erdosh
-* `seminar` Introduction to network visualization tools
-    Graph formats, Gephi, Networkx, Igraph, Centralities computation
+* `lecture` "Network Centralities"
+    * Degree, Betweeness, PageRank, Cores, Motifs, Island Approach
+* `lecture` "Network Models"
+    * Barbashi, Erdosh
+* `seminar` "Introduction to network visualization tools"
+    * Graph formats, Gephi, Networkx, Igraph, Centralities computation
 
 ### week 03
-* `lecture` Clustering and Communtity Detection
-* `seminar` Network Properties, Cores, Centralities
+* `lecture` "Clustering and Communtity Detection"
+* `seminar` "Network Properties, Cores, Centralities"
 
 ### week 04
-* `lecture` Epidemics in Networks
-* `seminar` Clustering and Communtity Detection
+* `lecture` "Epidemics in Networks"
+* `seminar` "Clustering and Communtity Detection"
 
 ### week 05
-* `lecture` Graph Neural Networks
-* `seminar` Web Scraping
+* `lecture` "Graph Neural Networks"
+* `seminar` "Web Scraping"
 
 ### week 06
-* `lecture` Advanced Graph Neural Networks
-* `seminar` Epidemics in Networks
+* `lecture` "Advanced Graph Neural Networks"
+* `seminar` "Epidemics in Networks"
 
 ### week 07
-* `seminar` Graph Neural Networks 
+* `seminar` "Graph Neural Networks"
 
 ### week 08
-* `seminar` Advanced Graph Neural Networks 
+* `seminar` "Advanced Graph Neural Networks"
 
 ## Grades
 Course grade will be completed as follows:
