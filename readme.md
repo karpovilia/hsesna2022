@@ -1,4 +1,4 @@
-# Social Network Analysis Magolego 2022
+# Main Page
 
 * [Course Description](course_description.md)
 * [Course Prerequisites](week_00/lecture_00_prerequisites.md)

@@ -19,5 +19,6 @@ jobs:
       - run: rm -rf mkdocs_template/docs/
       - run: mv mkdocs_template/* .
       - run: rm -rf mkdocs_template/
+      echo "Social Network Analysis Magolego 2022" >> mkdocs.yml
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
