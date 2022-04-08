@@ -72,7 +72,7 @@ Course grade will be completed as follows:
 [Final mark] = 0.4 * round([cumulative mark for the work during the modules]) + 0.6 * round( [mark for the final project]). 
 
 ### Evaluation of the work during the modules
-The cumulative mark for the work during the modulus is based on the tests $$ [cumulative mark for the work during the modules] = (test1 + test2 + test3 + test4 + test5 + test6)/6 $$ . If the student missed 5 classes or more, the final mark can be reduced by 25 %.
+The cumulative mark for the work during the modulus is based on the tests $$[cumulative mark for the work during the modules] = (test1 + test2 + test3 + test4 + test5 + test6)/6$$ . If the student missed 5 classes or more, the final mark can be reduced by 25 %.
 
 ### Evaluation of the course project
 
