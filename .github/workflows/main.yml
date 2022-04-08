@@ -13,6 +13,7 @@ jobs:
           python-version: 3.x
       - run: ls -la
       - run: pwd
+      - run: mkdir docs
       - run: mv !(docs) docs
       - run: mv docs/.git .
       - run: git clone https://github.com/karpovilia/mkdocs_template.git
