@@ -33,28 +33,66 @@ Basic knowledge of **python** programming language and statistics are required f
 
 ### week 01  
 * `lecture` "Course Intro and Key Ideas of Network Science"
-    * Discussion of the course program, grading strategies. Power law distribution, Small World Models
+    * Discussion of the course program
+    * Grading strategies.
+    * Power law distribution
+    * Small World Models in social graphs
+    * 6 handsghakes principle
+    * Forbidden triad and clustering coefficient
+    * Social Network homogenity principle
 * `lecture` "Network Properties"
     * Key defenitions: Node, Edge, Network, Degree, Degree Distribution, Bipartite Graph
 
 ### week 02
 * `lecture` "Network Centralities"
-    * Degree, Betweeness, PageRank, Cores, Motifs, Island Approach
+    * Метрики центральности вершин: степенная, мостовая, по близости, относительно собственных векторов, структурные. Интерпретация центральности как меры влияния. Визуализация ключевых агентов в сети. Cores and motiffs
+    * PageRank, стохастическая метрика и условие Перрона-Фробениуса. Итеративные методы. Хабы и источники. Алгоритм HITS.
+
 * `lecture` "Network Models"
-    * Barbashi, Erdosh
+    * Модель случайного графа Эрдоша-Рени. 
+    * Распределения Пуассона и Бернулли. 
+    * Распределение степеней вершин.
+    * Модель Барабаси-Альберта.
+    * Модель эволюции графа. 
+    * Модель “малого мира” (модель Ваттс-Строгаца). 
+    * Статистики случайных графов.
 * `seminar` "Introduction to network visualization tools"
     * Graph formats, Gephi, Networkx, Igraph, Centralities computation
 
 ### week 03
 * `lecture` "Clustering and Communtity Detection"
+    * Сетевые сообщества. 
+    * Плотность сообществ и метрики разрезов. 
+    * Алгоритм Ньюмена-Гирвина. 
+    * Спектральные методы кластеризации.
+    * Приближенные и жадные алгоритмы.
+    * Иерархическая кластеризация. 
+    * Локальная кластеризация.
+    * Графовые шаблоны
+
 * `seminar` "Network Properties, Cores, Centralities"
+    * Метрики структурной эквивалентности. Евклидова метрика и расстояние Хэмминга. Коэффициент корреляции. Косинусное сходство. Ассортативное смешивание и гомофилия. Смешивание по факторным и численным атрибутам.
 
 ### week 04
 * `lecture` "Epidemics in Networks"
+    * Модели эпидемий: SI, SIS, SIR. 
+    * Моделирование распространения инфекции.
+    * Информационные каскады. 
+    * Независимая и линейная пороговая модели каскадов. 
+    * Измерение распространения информации и оценка успешности компании в сетях.
+    * Распространение в сети и Лапласиан. 
+    * Социальная диффузия. 
+    * Пороговая модель Грановеттера для описания коллективного поведения.
+
 * `seminar` "Clustering and Communtity Detection"
 
 ### week 05
 * `lecture` "Graph Neural Networks"
+    * Графовые эмбеддинги.
+    * Модели на основе матричной факторизации, случайных блужданий и автоэнкодеров.
+    * Векторизация структурной модели.
+    * Атрибутивные графовые эмбеддинги.
+
 * `seminar` "Web Scraping"
 
 ### week 06
@@ -63,13 +101,19 @@ Basic knowledge of **python** programming language and statistics are required f
 
 ### week 07
 * `seminar` "Graph Neural Networks"
+    * Рост сети. Диаметр сжатия. 
+    * Проблема предсказания связей.
+    * Визуализация графового эмбеддинга 
+    * Обучение с учителем. 
+    * Рекомендательные системы.
+    * Задача классификации узлов
 
 ### week 08
 * `seminar` "Advanced Graph Neural Networks"
+    * Dive into GAT
 
 ## Grades
-Course grade will be completed as follows:
-[Final mark] = 0.4 * round([cumulative mark for the work during the modules]) + 0.6 * round( [mark for the final project]). 
+Course grade will be completed as follows: $$Final mark] = 0.4 * round([cumulative mark for the work during the modules]) + 0.6 * round( [mark for the final project])$$
 
 ### Evaluation of the work during the modules
 The cumulative mark for the work during the modulus is based on the tests $$[cumulative mark for the work during the modules] = (test1 + test2 + test3 + test4 + test5 + test6)/6$$ . If the student missed 5 classes or more, the final mark can be reduced by 25 %.
