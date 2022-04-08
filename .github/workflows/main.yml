@@ -20,5 +20,6 @@ jobs:
       - run: mv mkdocs_template/* .
       - run: rm -rf mkdocs_template/
       - run: echo "Social Network Analysis Magolego 2022" >> mkdocs.yml
+      - run: cat /home/runner/work/hsesna2022/hsesna2022/mkdocs.yml
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
