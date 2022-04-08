@@ -12,6 +12,10 @@ jobs:
         with:
           python-version: 3.x
       - run: find . ! -name . -prune ! -name docs -exec mv {} docs/ \;
-      - run: git clone git@github.com:karpovilia/mkdocs_template.git .
+      - run: git init
+      - run: git remote add origin git@github.com:karpovilia/mkdocs_template.git .
+      - run: git fetch
+      - run: git reset origin/main
+      - run: git checkout -t origin/main
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
