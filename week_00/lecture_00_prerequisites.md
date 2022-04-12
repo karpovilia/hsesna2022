@@ -1,9 +1,7 @@
 # Course Prerequisites
-
 English speaking students can have a look at those courses at Coursera:
-* [Python Basics](https://www.coursera.org/learn/python-basics)
-* [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?specialization=data-science-python) 
-
+    * [Python Basics](https://www.coursera.org/learn/python-basics)
+    * [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?specialization=data-science-python) 
 
 You can find the following seminars about python usefull
 ## Seminar 01 - introduction to python
