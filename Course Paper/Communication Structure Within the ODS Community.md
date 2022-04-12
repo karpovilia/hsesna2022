@@ -1,7 +1,7 @@
 # Communication Structure Within the ODS Community
 
-Project type: applied.
-Result: github repo + habr post.
+* Project type: applied.
+* Result: github repo + habr post.
 
 Slack allows you to download public posts. Given post emotions, texts and comments one can:
 1. build network and community structure for different channels

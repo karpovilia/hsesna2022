@@ -1,7 +1,7 @@
 # Implementing Islands and Main Path Approach in Python
 
-Project type: applied.
-Result: github repo + arXiv paper.
+* Project type: applied.
+* Result: github repo + arXiv paper.
 
 Below you can find two simple, yet usefull approaches to analyse large community.
 Unfortunately, both approaches are not implemented in Python.
