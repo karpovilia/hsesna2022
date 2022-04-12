@@ -7,7 +7,7 @@ You can find the following seminars about python usefull
 ## Seminar 01 - introduction to python
 * Materials: 
     * [youtube](https://youtu.be/OAiAyxfUL5k), 
-    * [youtubeContent 
+    * [youtube](https://youtu.be/OAiAyxfUL5k)
     * colab
 * Содержание:
     * переменные
@@ -67,4 +67,6 @@ You can find the following seminars about python usefull
 * Content:
     * TBA
 * Date: 2022.03.11
+
+
 
