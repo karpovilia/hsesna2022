@@ -1,9 +1,11 @@
 # Main Page
 
 * [Course Description](course_description.md)
+* [[main|Course Papers]]
 * [Course Prerequisites](week_00/lecture_00_prerequisites.md)
 
 ## Classes Schedule
+
 | Date       | Time  |       | Topic                                                                                                                           | Activity   | Group |
 |------------|-------|-------|---------------------------------------------------------------------------------------------------------------------------------|------------|-------|
 | 08.04.2022 |       |       | Test 1                                                                                                                          | Test       |       |
