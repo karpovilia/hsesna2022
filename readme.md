@@ -1,7 +1,7 @@
 # Main Page
 
 * [Course Description](course_description.md)
-* [[main|Course Papers]]
+* [Course Papers](Course%20Papers/main.md)
 * [Course Prerequisites](week_00/lecture_00_prerequisites.md)
 
 ## Classes Schedule
