@@ -1,6 +1,6 @@
 # Course Prerequisites
 
-English students can have a look at those courses at coursera:
+English speaking students can have a look at those courses at Coursera:
 * [Python Basics](https://www.coursera.org/learn/python-basics)
 * [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?specialization=data-science-python) 
 
