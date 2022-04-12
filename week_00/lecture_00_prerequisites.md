@@ -1,7 +1,11 @@
 # Course Prerequisites
 
-You can find the following seminars about python usefull
+English students can have a look at those courses at coursera:
+* [Python Basics](https://www.coursera.org/learn/python-basics)
+* [Introduction to Data Science in Python](https://www.coursera.org/learn/python-data-analysis?specialization=data-science-python) 
 
+
+You can find the following seminars about python usefull
 ## Seminar 01 - introduction to python
 * Materials: 
     * [youtube](https://youtu.be/OAiAyxfUL5k), 
