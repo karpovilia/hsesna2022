@@ -14,11 +14,11 @@
 | 15.04.2022 |       |       | Test 2                                                                                                                                                       | Test       |       |
 | 15.04.2022 | 18:10 | 19:30 | Network Centralities [colab](https://colab.research.google.com/drive/1kAX9kDvN8fA-SIsIobEWVgzqwzuUZiw2?usp=sharing), [youtube](https://youtu.be/jq6eyaHuoCc) | Lecture 3  |       |
 | 15.04.2022 | 19:40 | 21:00 | Network Models                                                                                                                                               | Lecture 4  |       |
-| 22.04.2022 | 16:20 | 17:40 | Introduction to network visualization tools                                                                                                                  | Seminar 1  | 1     |
+| 22.04.2022 | 16:20 | 17:40 | Introduction to network visualization tools [colab](https://colab.research.google.com/drive/1f-j5Zum7M-gjEdpR7AzXZcCDs17294Ei?usp=sharing)                   | Seminar 1  | 1     |
 | 22.04.2022 |       |       | Test 3                                                                                                                                                       | Test       |       |
 | 22.04.2022 |       |       | CP 1                                                                                                                                                         |            |       |
 | 22.04.2022 | 18:10 | 19:30 | Clustering and Communtity Detection                                                                                                                          | Lecture 5  |       |
-| 22.04.2022 | 19:40 | 21:00 | Introduction to network visualization tools                                                                                                                  | Seminar 1  | 2     |
+| 22.04.2022 | 19:40 | 21:00 | Introduction to network visualization tools  [colab](https://colab.research.google.com/drive/1f-j5Zum7M-gjEdpR7AzXZcCDs17294Ei?usp=sharing)                  | Seminar 1  | 2     |
 | 29.04.2022 | 16:20 | 17:40 | Network Properties, Cores, Centralities                                                                                                                      | Seminar 2  | 1     |
 | 29.04.2022 |       |       | Test 4                                                                                                                                                       | Test       |       |
 | 29.04.2022 | 18:10 | 19:30 | Epidemics in Networks                                                                                                                                        | Lecture 6  |       |
