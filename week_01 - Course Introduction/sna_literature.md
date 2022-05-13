@@ -35,3 +35,7 @@ Recent [CS conference publications](https://github.com/karpovilia/Research/blob/
 * International Conference on Network Analysis ([NET](https://www.hse.ru/DeCAn/news/541893983.html))
 * Networks in the Global World ([NetGloW](http://ngw.spbu.ru/))
 
+### Most important articles
+* GRAPH ATTENTION NETWORKS \[[pdf](https://arxiv.org/pdf/1710.10903v3.pdf)\]
+* 
+

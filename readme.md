@@ -19,9 +19,9 @@
 | 22.04.2022 |       |       | CP 1                                                                                                                                                         |            |       |
 | 22.04.2022 | 18:10 | 19:30 | Network Models                                                                                                                                               | Lecture 5  |       |
 | 22.04.2022 | 19:40 | 21:00 | Introduction to network visualization tools  [colab](https://colab.research.google.com/drive/1f-j5Zum7M-gjEdpR7AzXZcCDs17294Ei?usp=sharing)                  | Seminar 1  | 2     |
-| 29.04.2022 | 16:20 | 17:40 | Network Properties, Cores, Centralities                                                                                                                      | Seminar 2  | 1     |
+| 29.04.2022 | 16:20 | 17:40 | Network Properties, Cores, Centralities [youtube](https://www.youtube.com/watch?v=nglr0Vlai0E)                                                               | Seminar 2  | 1     |
 | 29.04.2022 |       |       | Test 4                                                                                                                                                       | Test       |       |
-| 29.04.2022 | 18:10 | 19:30 | Clustering and Communtity Detection                                                                                                                          | Lecture 6  |       |
+| 29.04.2022 | 18:10 | 19:30 | Clustering and Communtity Detection [youtube](https://www.youtube.com/watch?v=TaJy2aDOiJI)                                                                   | Lecture 6  |       |
 | 29.04.2022 | 19:40 | 21:00 | Network Properties, Cores, Centralities                                                                                                                      | Seminar 2  | 2     |
 | 13.05.2022 | 16:20 | 17:40 | Clustering and Communtity Detection                                                                                                                          | Seminar 3  | 1     |
 | 13.05.2022 |       |       | Test 5                                                                                                                                                       | Test       |       |
