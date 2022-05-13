@@ -67,17 +67,17 @@ d.	[DyNetML](http://www.casos.cs.cmu.edu/projects/dynetml/)
 * [*Supported Graph Formats*](https://gephi.org/users/supported-graph-formats/)
 6. [Cytoscape](https://cytoscape.org/) - an open source software platform for visualizing complex networks 
 7. [Graphjstry](https://www.graphistry.com/) - has a list of connectors
-8. [NodeXL](https://www.smrfoundation.org/nodexl/) - add-in for Microsoft Excel that support social network and content analysis
-9. [Socnetv](https://socnetv.org/): social network analysis and visualization software
+8. [NodeXL](https://www.smrfoundation.org/nodexl/) - add-in for Microsoft Excel that support social network and content analysis. Moreover, it has some build-in importers of social-web data (Flickr, Twitter, Youtube) and you are able to download additional importers.
+10. [Socnetv](https://socnetv.org/): social network analysis and visualization software
 * [*Supported Formats*](https://socnetv.org/docs/formats.html)
-10. [vosviewer](https://www.vosviewer.com/) - a software tool for constructing and visualizing bibliometric networks
-11. [CitNetExplorer](https://www.citnetexplorer.nl/) - a software tool for visualizing and analyzing citation networks of scientific publications
-12. yworks [yed](https://www.yworks.com/products/yed)
+11. [vosviewer](https://www.vosviewer.com/) - a software tool for constructing and visualizing bibliometric networks
+12. [CitNetExplorer](https://www.citnetexplorer.nl/) - a software tool for visualizing and analyzing citation networks of scientific publications
+13. yworks [yed](https://www.yworks.com/products/yed)
     * [online demo](https://www.yworks.com/products/yfiles/demos)
-13. [ogma](https://doc.linkurio.us/ogma/latest/) 
-14. d3
-15. [ibm i2](https://www.ibm.com/security/resources/demos/i2-analysts-notebook-demo/)
-16. CASOS [ORA](http://www.casos.cs.cmu.edu/projects/ora/)
+14. [ogma](https://doc.linkurio.us/ogma/latest/) 
+15. d3
+16. [ibm i2](https://www.ibm.com/security/resources/demos/i2-analysts-notebook-demo/)
+17. CASOS [ORA](http://www.casos.cs.cmu.edu/projects/ora/)
 
 Интересное сравнение бенчмарков есть в статье [Benchmark of popular graph/network packages](https://www.timlrx.com/blog/benchmark-of-popular-graph-network-packages-v2) v2
 

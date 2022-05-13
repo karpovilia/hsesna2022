@@ -45,6 +45,10 @@
 5. Apitester
 6. Insomnia
 
+## Other
+1. [Scrapy](https://scrapy.org/)
+
+
 
 ## Parallel Requests
 ![90542eac5af1d7fa0432439fc5cadb23.png](Images/90542eac5af1d7fa0432439fc5cadb23.png)
@@ -59,6 +63,16 @@
 4. [Beautifulsoup: find by regual expression](https://drive.google.com/file/d/1ia-N1tYQmOv8X1ZsXf4TUAv9Uaq2K6D3/view?usp=sharing)
 5. [image download](https://drive.google.com/file/d/1jnd4VzzwU9B_BCqIxJqI45v-MEUuD7ab/view?usp=sharing)
 6. [regex manual](https://drive.google.com/file/d/1wDMzkeg4RQgyNKQTIE71MhClMbh8T6vt/view?usp=sharing)
+7. [VK Requests](https://colab.research.google.com/drive/1g8LduMGH3wv3cy2n5T3jWi1hiebMVBJg?usp=sharing)
+
+
+## APIs
+* [Контактовский API](https://vk.com/dev/methods)
+* [API twitter](https://developer.twitter.com/en/docs.html)
+* [API youtube](https://developers.google.com/youtube/v3/)
+* [API google maps](https://developers.google.com/maps/documentation/)
+* [Aviasales](https://www.aviasales.ru/API)
+* [Yandex Translate](https://yandex.ru/dev/translate/)
 
 ### References
 * Ryan Mitchell, **Web Scraping with Python - Collecting More Data from the Modern Web** [pdf](https://edu.anarcho-copy.org/Programming%20Languages/Python/Web%20Scraping%20with%20Python,%202nd%20Edition.pdf)

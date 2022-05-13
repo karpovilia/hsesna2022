@@ -4,6 +4,7 @@
 
 stellargraph
 
+NodeSketch: Highly-Efficient Graph Embeddings via Recursive Sketching. Yang et al., KDD 2019, 
 
 [Must-read papers on GNN](https://github.com/thunlp/GNNPapers)
 [Graph-based Deep Learning Literature](https://github.com/naganandy/graph-based-deep-learning-literature)
