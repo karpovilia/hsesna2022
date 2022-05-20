@@ -1,4 +1,10 @@
-##
+
+![[Pasted image 20220513180252.png]]
+http://91-divoc.com/pages/covid-visualization/
+
+
+https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology
+
 ## SIR model
 The SIR model is one of the simplest compartmental models, and many models are derivatives of this basic form. The model consists of three compartments:
 
@@ -35,5 +41,10 @@ $\beta_i$ is then used as a beta in the basic SIR system.
 
 **Limitations** This model does not count many factors. Death predictions The SIR-poly model is not able to predict death cases.
 
+## Influence Models
+* Independent Cascade
+	* $p_{v,w}$ for each edge
+	* SI# if $p_{v,w} = p$
+* Linear Threshold
+	* $\sum{w_{ij}} > \theta$
 
-## SIS model

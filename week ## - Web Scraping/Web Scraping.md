@@ -7,8 +7,6 @@
 
 *[Sequence diagram of a Web application.](https://ieeexplore.ieee.org/document/1423991)*
 
-##
-
 ### HTTP Request
 
 - Verb - Indicates the HTTP methods such as GET, POST, DELETE, PUT, etc.
@@ -18,14 +16,12 @@
 - Request Body - Message content or Resource representation.
 
 ### HTTP Response
-
 - Status/Response Code - Indicates the Server status for the requested resource. For example, 404 means resource not found and 200 means response is ok.
 - HTTP Version - Indicates the HTTP version. For example HTTP v1.1.
 - Response Header - Contains metadata for the HTTP Response message as keyvalue pairs. For example, content length, content type, response date, server type, etc.
 - Response Body - Response message content or Resource representation.
 
 ### HTTP status codes
-
 - 200	OK - shows success.
 - 201	CREATED - when a resource is successfully created using POST or PUT request. Returns link to the newly created resource using the location header.
 - 204 NO CONTENT - when response body is empty. For example, a DELETE request.

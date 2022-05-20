@@ -1,7 +1,11 @@
 https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology
 https://publications.hse.ru/en/chapters/210598897
+
 https://www.researchgate.net/publication/223990697_Competition_among_memes_in_a_world_with_limited_attention
 
+[A COVID-19-Based Modified Epidemiological Model and Technological Approaches to Help Vulnerable Individuals Emerge from the Lockdown in the UK
+](https://www.researchgate.net/publication/344042984_A_COVID-19-Based_Modified_Epidemiological_Model_and_Technological_Approaches_to_Help_Vulnerable_Individuals_Emerge_from_the_Lockdown_in_the_UK?enrichId=rgreq-e98638d13f27367d73afe51e486c194a-XXX&enrichSource=Y292ZXJQYWdlOzM0NDA0Mjk4NDtBUzo5MzEyNTk2MjY4NDQxNjJAMTU5OTA0MTAwNTc3MA%3D%3D&el=1_x_2&_esc=publicationCoverPdf)
+[The Hidden Geometry of Complex, Network-Driven Contagion Phenomena](https://www.researchgate.net/publication/259322075_The_Hidden_Geometry_of_Complex_Network-Driven_Contagion_Phenomena)
 
 * Epidemics on networks with NetworkX and EoN [github](https://github.com/Mercurialll/tutors_and_projs/blob/master/jupyter_english/tutorials/Epidemics_on_networks_with_NetworkX_and_EoN_Syrovatskiy_Ilya.ipynb)
 
@@ -9,7 +13,8 @@ https://www.researchgate.net/publication/223990697_Competition_among_memes_in_a_
 
 # Information propagation
 
-Inf2Vec model
+### Inf2vec: Latent Representation Model for Social Influence Embedding
+[ieee](https://ieeexplore.ieee.org/document/8509310)
 
 Авторы предлагают модель для эмбеддинга social influence. 
 
@@ -34,7 +39,7 @@ Inf2Vec model improvement + Influence Maximization task
 
 Deep Collaborative Embedding (DCE)
 
-Автоэнкодер каскадов распространения информации. Пока не очень вник, но выглядит достаточно громоздко. Сначала там собираются cascading contexts, которые для каждого каскада делают матрицу N*N (N - количество нодов), где значения на [i, j] это потенциальное влияние юзера i на юзера j в рамках данного каскада.
+Автоэнкодер каскадов распространения информации. Сначала там собираются cascading contexts, которые для каждого каскада делают матрицу N*N (N - количество нодов), где значения на [i, j] это потенциальное влияние юзера i на юзера j в рамках данного каскада.
 
 Затем для каждого нода собираются вектора их влияния на другие ноды в рамках разных каскадов, и это все подается на вход автоанкодеру, из которого достается эмбеддинг для нода.
 

@@ -1,4 +1,6 @@
 ## Practice
+Petar Velicovic official [GAT page](https://petar-v.com/GAT/)
+
 * [Graph Embeddings Tutorial](https://github.com/iggisv9t/graph-stuff/blob/master/Graph%20Embeddings%20Tutorial.ipynb)
 * [Graphs - Lecture 7 - Embeddings](https://www.kaggle.com/arsenykhakhalin/graphs-lecture-7-embeddings)
 
