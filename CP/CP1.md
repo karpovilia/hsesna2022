@@ -1,4 +1,4 @@
-General structure of the Project Proposal is the following:
+# General structure of the Project Proposal is the following:
 
 1. Title
 2. Abstract
@@ -11,4 +11,3 @@ General structure of the Project Proposal is the following:
 6. References
 7. Appendices
 
-#
