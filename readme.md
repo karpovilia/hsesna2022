@@ -30,8 +30,8 @@
 | 20.05.2022 |       |       | Test 5                                                                                                                                                       | Test       |       |
 | 20.05.2022 | 18:10 | 19:30 | Graph Neural Networks                                                                                                                                        | Lecture 8  |       |
 | 20.05.2022 | 19:40 | 21:00 | Clustering and Communtity Detection | Seminar 4  | 2     |
-| 27.05.2022 | 18:10 | 19:30 | CP 2                                                                                                                                                         | Seminar 5  | 1     |
-| 27.05.2022 | 19:40 | 21:00 | CP 2                                                                                                                                                         | Seminar 5  | 2     |
+| 27.05.2022 | 18:10 | 19:30 | CP 2 part 1 [youtube](https://youtu.be/Py5CQjiv9Pk)  | Seminar 5  | 1     |
+| 27.05.2022 | 19:40 | 21:00 | CP 2 part 2 [youtube](https://youtu.be/gwwmQkL4iq0)  | Seminar 5  | 2     |
 | 03.06.2022 | 18:10 | 19:30 | Epidemics in Networks                                                                                                                                        | Seminar 6  | 1     |
 | 03.06.2022 | 19:40 | 21:00 | Epidemics in Networks                                                                                                                                        | Seminar 6  | 2     |
 | 10.06.2022 | 18:10 | 19:30 | Graph Neural Networks                                                                                                                                        | Seminar 7  | 1     |
