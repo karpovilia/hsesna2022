@@ -10,6 +10,14 @@
 * The Structure and Function of Complex Networks, M. E. J. Newman,  SIAM Review, 45, pp 167-256, 2003
 * Complex networks: Structure and dynamics, S. Boccaletti et al.,  Physics Reports, Volume 424, Issue 4-5, p. 175-308, 2006
 
+### Scraping
+* [PyWebScrapingBook](https://dl.dropboxusercontent.com/s/rretwz80j38f0wa/PyWebScrapingBook.pdf)
+
+### Social Network Analysis
+* [Advances in Network Clustering and Blockmodeling](https://dl.dropboxusercontent.com/s/v9z7hb2m06peo5z/Advances%20in%20Network%20Clustering%20and%20Blockmodeling.pdf)
+* [Graph Embeddings for Social Network Analysis](https://dl.dropboxusercontent.com/s/iavzqvhxlx8kcap/Graph%20Embeddings%20for%20Social%20Network%20Analysis.pdf)
+* [Python for Graph and Network Analysis](https://dl.dropboxusercontent.com/s/w80igk1jxkaiadi/Python%20for%20Graph%20and%20Network%20Analysis.pdf)
+
 ## Conferences (computer science)
 NB! [Graph-based Deep Learning Literature Reports](https://github.com/naganandy/graph-based-deep-learning-literature)
 Recent [CS conference publications](https://github.com/karpovilia/Research/blob/main/Research/Relevant%20Articles.md)
