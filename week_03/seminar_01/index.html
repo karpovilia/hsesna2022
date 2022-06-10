@@ -1,0 +1,1173 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.3">
+    
+    
+      
+        <title>Seminar 01 - Introduction to network visualization tools - Social Network Analysis Magolego 2022</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4a0965b7.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#seminar-01-introduction-to-network-visualization-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Social Network Analysis Magolego 2022" class="md-header__button md-logo" aria-label="Social Network Analysis Magolego 2022" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Social Network Analysis Magolego 2022
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Seminar 01 - Introduction to network visualization tools
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Social Network Analysis Magolego 2022" class="md-nav__button md-logo" aria-label="Social Network Analysis Magolego 2022" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Social Network Analysis Magolego 2022
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Epidemics%20Seminar/" class="md-nav__link">
+        Epidemics seminar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Epidemics%20in%20networks/" class="md-nav__link">
+        Epidemics in networks
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FAQ/" class="md-nav__link">
+        Вопросы
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Link%20Prediction/" class="md-nav__link">
+        Link Prediction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course_description/" class="md-nav__link">
+        Course Sillablus
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../readme/" class="md-nav__link">
+        Main Page
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../seminar%20%23%23%20-%20Epidemics%20in%20networks/" class="md-nav__link">
+        seminar ##   Epidemics in networks
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          CP
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="CP" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          CP
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CP/CP1/" class="md-nav__link">
+        General structure of the Project Proposal is the following:
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CP/CP2/" class="md-nav__link">
+        Control Point 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Course Papers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Course Papers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Course Papers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/CP%20hints/" class="md-nav__link">
+        Course Paper Hints
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/Communication%20Structure%20Within%20the%20ODS%20Community/" class="md-nav__link">
+        Communication Structure Within the ODS Community
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/Implementing%20Islands%20and%20Main%20Path%20Approach%20in%20Python/" class="md-nav__link">
+        Implementing Islands and Main Path Approach in Python
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/Stock%20Market%20Prediction/" class="md-nav__link">
+        Stock market prediction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/UN%20Voting%20Coalitions/" class="md-nav__link">
+        UN Voting Coalitions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/World%20Marine%20Trade%20Analysis/" class="md-nav__link">
+        World Marine Trade Analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Course%20Papers/main/" class="md-nav__link">
+        Course Papers
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          seminar ##   Community Detection
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="seminar ##   Community Detection" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          seminar ##   Community Detection
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../seminar%20%23%23%20-%20Community%20Detection/main/" class="md-nav__link">
+        Main
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          Seminar 02 node centralities
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Seminar 02 node centralities" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Seminar 02 node centralities
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../seminar_02%20node%20centralities/Seminar%2002/" class="md-nav__link">
+        Seminar 02
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12">
+          week ##   Graph Embeddings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="week ##   Graph Embeddings" data-md-level="1">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          week ##   Graph Embeddings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week%20%23%23%20-%20Graph%20Embeddings/Seminar%2007%20-%20Graph%20Embeddings/" class="md-nav__link">
+        Seminar 07 - Graph Embeddings
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_13">
+          week ##   Web Scraping
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="week ##   Web Scraping" data-md-level="1">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          week ##   Web Scraping
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week%20%23%23%20-%20Web%20Scraping/OSN/" class="md-nav__link">
+        VK API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week%20%23%23%20-%20Web%20Scraping/Web%20Scraping/" class="md-nav__link">
+        HTTP Requests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week%20%23%23%20-%20Web%20Scraping/handling%20facebook/" class="md-nav__link">
+        Handling facebook
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14">
+          week 00   Course Prerequisites
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="week 00   Course Prerequisites" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          week 00   Course Prerequisites
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week_00%20-%20Course%20Prerequisites/lecture_00_prerequisites/" class="md-nav__link">
+        Course Prerequisites
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_15">
+          week 01   Course Introduction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="week 01   Course Introduction" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          week 01   Course Introduction
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week_01%20-%20Course%20Introduction/lecture_01_intro/" class="md-nav__link">
+        Lecture 01 Key Ideas of Network Science
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week_01%20-%20Course%20Introduction/sna_datasets/" class="md-nav__link">
+        SNA Datasets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../week_01%20-%20Course%20Introduction/sna_literature/" class="md-nav__link">
+        SNA Literature
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16" type="checkbox" id="__nav_16" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16">
+          Week 03
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Week 03" data-md-level="1">
+        <label class="md-nav__title" for="__nav_16">
+          <span class="md-nav__icon md-icon"></span>
+          Week 03
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lecture_04/" class="md-nav__link">
+        Lecture 04 - Network Models
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Seminar 01 - Introduction to network visualization tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Seminar 01 - Introduction to network visualization tools
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="seminar-01-introduction-to-network-visualization-tools">Seminar 01 - Introduction to network visualization tools</h1>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Please install gephi https://gephi.org/users/download/ for today's seminar and set up English Language.</li>
+</ul>
+<p><img alt="859bc3d2e4bf09d240115f3f9ec96e19.png" src="../Images/859bc3d2e4bf09d240115f3f9ec96e19.png" /></p>
+<h2 id="materials">Materials</h2>
+<ul>
+<li>NetworkX <a href="https://colab.research.google.com/drive/1f-j5Zum7M-gjEdpR7AzXZcCDs17294Ei?usp=sharing">colab</a></li>
+</ul>
+<p>### Data
+* <a href="https://dl.dropboxusercontent.com/s/39k4aj05dbkbz8g/edges.csv">edges</a> 
+* <a href="https://dl.dropboxusercontent.com/s/jt3fie6aedewirf/nodes.tsv">nodes</a> </p>
+<h1 id="_1">Форматы файлов и средства работы с графами</h1>
+<h2 id="graph-data-sources-classification">Graph data sources classification</h2>
+<ol>
+<li>Graph Databases<ul>
+<li>Graph Query languages</li>
+</ul>
+</li>
+<li>Relational Databases<ul>
+<li>SQL</li>
+</ul>
+</li>
+<li>Files<ul>
+<li>Common tables</li>
+<li>Specific graph formats</li>
+<li>Domain-oriented formats</li>
+</ul>
+</li>
+</ol>
+<h2 id="file-formats">File formats</h2>
+<h3 id="main-formats">Main formats</h3>
+<ol>
+<li><a href="http://users.cecs.anu.edu.au/~bdm/data/formats.txt">Description</a> of graph6, sparse6 and digraph6 encodings</li>
+<li><a href="https://en.wikipedia.org/wiki/Dot">DOT</a> (graph-description,language)</li>
+<li><a href="http://graphml.graphdrawing.org/specification.html">GraphML</a></li>
+<li><a href="http://www.gupro.de/GXL/">GXL</a> (Graph eXchange Language)</li>
+<li>GML (Graph Modelling Language)<ul>
+<li><a href="https://docs.yworks.com/yfiles/doc/developers-guide/gml.html">from yFiles</a> </li>
+<li><a href="https://gephi.org/users/supported-graph-formats/gml-format/">from Gephi</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="domain-specific-graph-formats">Domain specific graph formats</h2>
+<ol>
+<li><a href="http://openbabel.org/wiki/Main_Page">OpenBabel</a>
+<a href="https://github.com/openbabel/openbabel/">github</a>, <a href="https://github.com/openbabel/documentation/tree/master/FileFormats">file formats</a></li>
+</ol>
+<h2 id="data-collection-file-formats">Data collection file formats</h2>
+<ol>
+<li>UCI Network <a href="http://networkdata.ics.uci.edu/getting_started.php">Data Repository Download</a> formats
+a.  <a href="http://mrvar.fdv.uni-lj.si/pajek/">Pajek</a>
+b.  <a href="https://networkx.org/documentation/networkx-1.9/reference/readwrite.gml.html">GML</a>
+c.  <a href="http://graphml.graphdrawing.org/">GraphML</a>
+d.  <a href="http://www.casos.cs.cmu.edu/projects/dynetml/">DyNetML</a></li>
+</ol>
+<h2 id="main-implementations">Main implementations</h2>
+<ol>
+<li>graph-tool</li>
+<li><a href="https://snap.stanford.edu/snappy/index.html">Snap</a> от Стенфордской группы</li>
+<li>JGraphT - java библиотека с <a href="https://medium.com/@dimitrios.michail/announcing-the-python-bindings-of-jgrapht-918d0cf386de">питоновской обвязкой</a>.</li>
+<li>stellargraph для эббеддингов</li>
+<li><a href="http://networkx.org/">NetworkX</a> - a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks</li>
+<li>*<a href="http://networkx.org/documentation/stable/reference/convert.html#"><em>Converting to and from other data formats</em></a></li>
+<li><a href="https://cambridge-intelligence.com/regraph/">ReGraph</a> - a Python package for advanced graph visualisation</li>
+<li><a href="https://cambridge-intelligence.com/python-graph-visualization-using-jupyter-regraph/"><em>ReGraph tutorial</em></a></li>
+<li><a href="https://igraph.org/">IGraph</a> - Network analysis software</li>
+<li><a href="https://igraph.org/c/doc/igraph-Foreign.html"><em>Reading and Writing Graphs from and to Files</em></a></li>
+<li><a href="http://graphviz.org/">Graphviz</a> - Graph Visualization Software</li>
+<li><a href="http://graphviz.org/doc/info/lang.html"><em>The DOT Language</em></a></li>
+<li><a href="https://gephi.org/">Gephi</a> - the leading visualization and exploration software for all kinds of graphs and networks</li>
+<li><a href="https://gephi.org/users/supported-graph-formats/"><em>Supported Graph Formats</em></a></li>
+<li><a href="https://cytoscape.org/">Cytoscape</a> - an open source software platform for visualizing complex networks </li>
+<li><a href="https://www.graphistry.com/">Graphjstry</a> - has a list of connectors</li>
+<li><a href="https://www.smrfoundation.org/nodexl/">NodeXL</a> - add-in for Microsoft Excel that support social network and content analysis. Moreover, it has some build-in importers of social-web data (Flickr, Twitter, Youtube) and you are able to download additional importers.</li>
+<li><a href="https://socnetv.org/">Socnetv</a>: social network analysis and visualization software</li>
+<li><a href="https://socnetv.org/docs/formats.html"><em>Supported Formats</em></a></li>
+<li><a href="https://www.vosviewer.com/">vosviewer</a> - a software tool for constructing and visualizing bibliometric networks</li>
+<li><a href="https://www.citnetexplorer.nl/">CitNetExplorer</a> - a software tool for visualizing and analyzing citation networks of scientific publications</li>
+<li>yworks <a href="https://www.yworks.com/products/yed">yed</a><ul>
+<li><a href="https://www.yworks.com/products/yfiles/demos">online demo</a></li>
+</ul>
+</li>
+<li><a href="https://doc.linkurio.us/ogma/latest/">ogma</a> </li>
+<li>d3</li>
+<li><a href="https://www.ibm.com/security/resources/demos/i2-analysts-notebook-demo/">ibm i2</a></li>
+<li>CASOS <a href="http://www.casos.cs.cmu.edu/projects/ora/">ORA</a></li>
+</ol>
+<p>Интересное сравнение бенчмарков есть в статье <a href="https://www.timlrx.com/blog/benchmark-of-popular-graph-network-packages-v2">Benchmark of popular graph/network packages</a> v2</p>
+<h2 id="publications-and-prototypes">Publications and prototypes</h2>
+<ol>
+<li><a href="https://github.com/lferry007/LargeVis">LargeViz</a>
+<a href="https://github.com/elbamos/largeVis">github</a>, <a href="https://arxiv.org/abs/1602.00370">Visualizing Large-scale and High-dimensional Data</a></li>
+<li><a href="https://github.com/marckhoury/mars">mars</a> - a graph drawing tool for large graph visualization</li>
+<li><a href="https://www.mdpi.com/2227-9709/3/4/23/htm">Interactive Graph Layout of a Million Nodes</a></li>
+</ol>
+<h2 id="nice-visualizations">Nice visualizations</h2>
+<h1 id="graph-vizualization">Graph Vizualization</h1>
+<ul>
+<li>
+<p><a href="https://networkrepository.com/">Network Repository</a></p>
+<ul>
+<li><a href="https://networkrepository.com/graphvis.php?d=./data/gsm50/labeled/cora.edges">Cora in Network Repository</a></li>
+</ul>
+</li>
+<li>
+<p>julesvernestrilogy.com</p>
+</li>
+<li>
+<p><a href="http://internet-map.net">internet-map.net</a> / webverse.org</p>
+</li>
+<li>
+<p>Статья по визуализации графов от iggisv9t <a href="https://habr.com/ru/company/ods/blog/464715/">хабр</a>, <a href="https://towardsdatascience.com/large-graph-visualization-tools-and-approaches-2b8758a1cd59">towardsdatascience</a> </p>
+</li>
+<li>
+<p>Еще одна визуализация от Deep Graph Library <a href="https://www.dgl.ai/blog/2019/02/17/gat.html">блог</a></p>
+</li>
+<li>
+<p>Хороший гайд по <a href="https://www.youtube.com/watch?v=AkR6r1FbRdY">yFiles Automatic Graph Layout</a></p>
+<ul>
+<li><a href="https://www.yworks.com/yed-live/">yEd</a> - Live Graph Editor</li>
+<li><a href="https://live.yworks.com/demos/layout/layoutstyles/index.html">Layout-Styles Demo</a> (offers more settings)</li>
+</ul>
+</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li>"<a href="https://dl.dropboxusercontent.com/s/p4aoaxpyij0ml7x/1473871612455749.pdf">A survey of two-dimensional graph layout techniques for information visualisation</a>" [@gibsonSurveyTwodimensionalGraph2013]</li>
+<li>"<a href="https://arxiv.org/pdf/1710.04328.pdf">What Would a Graph Look Like in This Layout? A Machine Learning Approach to Large Graph Visualization</a>" [@kwonWhatWouldGraph2018]</li>
+</ul>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../lecture_04/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lecture 04 - Network Models" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Lecture 04 - Network Models
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b028fd86.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f758a944.min.js"></script>
+      
+    
+  </body>
+</html>
