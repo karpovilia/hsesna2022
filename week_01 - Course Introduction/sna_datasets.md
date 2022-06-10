@@ -8,7 +8,7 @@
 ## SNA
 * [Network Repository](https://networkrepository.com/)
 * Готовые [Dataset’ы Stanford Network Analysis Project](https://snap.stanford.edu/data/) - есть социальные сети, веб графы
-* [Cora Dataset]([https://sites.google.com/site/semanticbasedregularization/home/software/experiments_on_cora](https://sites.google.com/site/semanticbasedregularization/home/software/experiments_on_cora)), [Cora on paperswithcode](https://paperswithcode.com/dataset/cora)
+* [Cora Dataset](https://sites.google.com/site/semanticbasedregularization/home/software/experiments_on_cora), [Cora on paperswithcode](https://paperswithcode.com/dataset/cora)
 * Arxiv
 * Reddit
 
