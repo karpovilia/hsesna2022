@@ -1,4 +1,4 @@
-# Practice
+# Seminar 07 - Graph Embeddings
 ## Random Walks
 * Random Walks [colab](https://drive.google.com/file/d/1UrwxZZHvahCjScK58goxu5I-21FdSsHU/view?usp=sharing)
 
